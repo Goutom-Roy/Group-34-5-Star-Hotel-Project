@@ -69,7 +69,7 @@ public class LoginSceneController implements Initializable {
         String userRole="";
         
         try {
-           File file = new File("C:\\Users\\gouto\\Netbeans files1\\Group Projects\\Group-34 ( 5 Star Hotel ) Project\\src\\files\\LoginUserInfo.txt");
+           File file = new File("G:\\Spring\\CSE213\\Group-34-5-Star-Hotel-Project\\Group-34 ( 5 Star Hotel ) Project\\src\\files\\LoginUserInfo.txt");
             Scanner x = new Scanner(file);
             x.useDelimiter("[;\n]");
             
