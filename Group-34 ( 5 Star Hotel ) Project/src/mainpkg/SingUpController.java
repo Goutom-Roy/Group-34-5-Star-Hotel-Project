@@ -25,7 +25,6 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-
 /**
  * FXML Controller class
  *
@@ -58,7 +57,7 @@ public class SingUpController implements Initializable {
     private void signUpButtonOnClick(MouseEvent event) throws IOException {
         try {
      
-     FileWriter w = new FileWriter("C:\\Users\\gouto\\Netbeans files1\\Group Projects\\Group-34 ( 5 Star Hotel ) Project\\src\\files\\LoginUserInfo.txt",true);
+     FileWriter w = new FileWriter("C:\\Users\\ASUS\\Documents\\GitHub\\Group-34-5-Star-Hotel-Project\\Group-34 ( 5 Star Hotel ) Project\\src\\files\\LoginUserInfo.txt",true);
 //      FileWriter w = new FileWriter("C:\\Users\\gouto\\Netbeans files1\\Group Projects\\Group-34 ( 5 Star Hotel ) Project\\src\\files\\LoginUserDetails.txt",true);
       
       w.write( emailTextField.getText().toString() +";"+ passwordTextField.getText().toString()+";"+ 
